@@ -32,7 +32,7 @@ async function getProductById(req, res) {
 async function createProduct(req, res) {
   try {
     const productData = req.body;
-    console.log("CREATE PRODUCT ÇALIŞTI")
+    console.log("CREATE PRODUCT ÇALIŞTI");
     const newProduct = await productService.createProduct(productData);
     res.status(201).json(newProduct);
   } catch (error) {

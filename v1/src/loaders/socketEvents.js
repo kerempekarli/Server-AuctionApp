@@ -26,7 +26,7 @@ const initSocket = (io) => {
 // Açık artırmayı başlatma fonksiyonu
 function startAuction(io, auctionId) {
   console.log("Açık arttırma başlatıldı");
-  const countdown = 10;
+  const countdown = 11;
   auctions[auctionId] = {
     countdown,
     timer: setInterval(() => {

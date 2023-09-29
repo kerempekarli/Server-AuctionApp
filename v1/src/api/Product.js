@@ -11,7 +11,7 @@ const router = express.Router();
 // Tüm ürünleri getirme
 router.get("/", getAllProducts);
 
-// Ürünü ID'ye göre getirme 
+// Ürünü ID'ye göre getirme
 router.get("/:productId", getProductById);
 
 // Yeni ürün oluşturma
